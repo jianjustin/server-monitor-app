@@ -1,0 +1,55 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.1",
+	"appid": "wxbe95f9e456c07912",
+	"projectname": "server-monitor-app",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/usercenter/usercenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "测试轮播效果",
+					"pathName": "pages/testIndex/testIndex"
+				}
+			]
+		}
+	}
+}

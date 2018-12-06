@@ -1,0 +1,18 @@
+<view class="login-page">
+  <view class="login-item login-image">
+    <image src="../../images/IMG_0451.jpg"></image>
+  </view>
+  <view class='login-item login-username'>
+    <input bindinput="getUserName" type='text' placeholder='用户' name="username" value="{{username}}"></input>
+  </view>
+    <view class='login-item login-password'>
+    <input bindinput="getPassword" type='password' placeholder='密码'name="password" value="{{password}}"></input>
+  </view>
+    <view class='login-item login-loginbtn'>
+    <button bindtap="userLogin">登录</button>
+  </view>
+  <view class='login-item login-loginbtn'>
+    <button type="primary" bindtap="userRegister">注册</button>
+  </view>
+</view>
+

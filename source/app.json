@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/usercenter/usercenter",
+    "pages/login/login",
+    "pages/testIndex/testIndex",
+    "pages/testMessage/testMessage",
+    "pages/testMember/testMember"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "服务监控",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/dashboard.png",
+      "selectedIconPath": "images/dashboard_blue.png"
+    },{
+      "pagePath": "pages/usercenter/usercenter",
+      "text": "个人",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/user_blue.png"
+    },{
+      "pagePath": "pages/test/test",
+      "text": "测试",
+      "iconPath": "images/icon_settle.png",
+      "selectedIconPath": "images/icon_settle_blue.png"
+    }]
+  },
+  "usingComponents": {
+    "van-row": "path/to/vant-weapp/dist/row/index",
+    "van-col": "path/to/vant-weapp/dist/col/index",
+    "van-field": "path/to/vant-weapp/dist/field/index",
+    "van-cell-group": "path/to/vant-weapp/dist/cell-group/index"
+  }
+}

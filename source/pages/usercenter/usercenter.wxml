@@ -1,0 +1,20 @@
+<view class="usercenter-login">
+<!--登录页面头部图标-->
+<view class="page__hd">
+<view class="section__title">
+<image class="login-title" src='../../images/IMG_0451.jpg'></image>
+</view>
+</view>
+  
+  <view class="section">
+    <input type='text' placeholder='账号'></input>
+  </view>
+  <view class="section">
+      <input type='password' placeholder='密码'></input>
+  </view>
+  <view class="section">
+  <view class='btn-area'>
+      	<button type='primary'>登录</button>
+  </view>
+  </view>
+</view>

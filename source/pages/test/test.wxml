@@ -1,0 +1,5 @@
+<view class="test-page">
+<view class='test-body' wx:for="{{testPages}}" wx:key="idx" wx:for-item="itemName">
+  <button  type="primary" data-path='{{itemName.path}}' class="test-list-item" bindtap="testClick">{{itemName.name}}</button>
+</view>
+</view>

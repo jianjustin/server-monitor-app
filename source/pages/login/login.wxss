@@ -1,0 +1,25 @@
+/* pages/login/login.wxss */
+
+.login-page{
+  display: flex;
+  flex-direction: column;
+  margin: 100rpx;
+}
+
+.login-item{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  box-shadow:inset 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.login-image{
+    display: flex;
+    justify-content: center
+}
+
+.login-image image{
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}

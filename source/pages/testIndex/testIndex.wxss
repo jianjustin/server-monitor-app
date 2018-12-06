@@ -1,0 +1,61 @@
+/* pages/testIndex/testIndex.wxss */
+
+.testIndex-page,page{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+
+
+.testIndex-swiper-item ,.testIndex-swiper-item-child{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    margin: 10rpx;
+    text-align:center;
+  z-index:0;    
+}
+
+.testIndex-swiper-item icon{
+    width: 128rpx;
+    height: 128rpx;
+    margin: 0 auto;
+}
+
+/*动态设置元素是否隐藏*/
+.view_button_false{
+ display: none;
+}
+.view_button_true{
+ display: block;
+}
+
+/*环形实现*/
+.element2{
+  width: 400rpx;
+	height: 400rpx;
+	border-radius: 50%;
+  margin:0 auto;
+	border: 10px solid lightblue;
+	clip: rect(0 100px 200px 0);  
+  z-index:1;
+}
+
+.testIndex-swiper-item-tab{
+  font-size: 20rpx;
+}
+
+.testIndex-swiper-item-tab3{
+   font-size: 100rpx;
+}
+
+.testIndex-swiper-item-tab9{
+  border-radius: 60rpx;
+  box-shadow: 0 10rpx 10rpx rgba(219, 30, 30, 0.2);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a8efa), to(#20f49c));
+   position:absolute;
+   width: 400rpx;
+   left:50%;
+   margin-left: -200rpx;
+   bottom:50px;
+}

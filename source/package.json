@@ -1,0 +1,12 @@
+{
+  "name": "server-monitor-app",
+  "version": "1.0.0",
+  "description": "服务监控app",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "jian",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

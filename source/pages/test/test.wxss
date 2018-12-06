@@ -1,0 +1,13 @@
+/* pages/test/test.wxss */
+
+.test-page{
+  display: flex;
+  flex-direction: column;
+  margin: 100rpx;
+}
+
+.test-title,.test-list-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 50rpx
+}
