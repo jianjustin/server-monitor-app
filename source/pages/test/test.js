@@ -14,6 +14,10 @@ Page({
         id: "testMember",
         name: "用户",
         path: "/pages/testMember/testMember"
+      }, {
+        id: "testMember",
+        name: "地图",
+        path: "/pages/testMap/testMap"
       }
     ]
   },

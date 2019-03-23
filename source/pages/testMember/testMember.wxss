@@ -1,1 +1,23 @@
 /* pages/testMember/testMember.wxss */
+
+.testMember-page{
+  display: flex;
+    flex-direction: column;
+     justify-content: center;
+}
+
+.test-title-settle1{
+  position: absolute;
+  left: 30rpx;
+}
+
+.test-title-settle2{
+  position: absolute;
+  right: 30rpx;
+}
+
+.testMember-tab{
+  box-shadow: 10rpx 5rpx 5rpx black;
+
+
+}

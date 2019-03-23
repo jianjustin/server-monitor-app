@@ -1,0 +1,21 @@
+<view class="testMap-page">
+  <map id="myMap" show-location longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}"/>
+  <cover-view class='my-cover-view'>
+   <cover-view class="my-map-button-item" >
+      <button class="button1" type="primary" bindtap="getCenterLocation">获取位置</button>
+    </cover-view>
+    <cover-view class="my-map-button-item">
+       <button class="button2" type="primary" bindtap="moveToLocation">移动位置</button>
+    </cover-view>
+    <cover-view class="my-map-button-item">
+      <button class="button3" type="primary" bindtap="translateMarker">移动标注</button>
+    </cover-view>
+    <cover-view class="my-map-button-item">
+      <button class="button4" type="primary" bindtap="includePoints">缩放</button>
+    </cover-view>
+    <cover-view class="my-map-button-item">
+      <button class="button5" type="primary" bindtap="includePoints">放大</button>
+    </cover-view>
+  </cover-view>
+  
+</view>

@@ -7,7 +7,8 @@
     "pages/login/login",
     "pages/testIndex/testIndex",
     "pages/testMessage/testMessage",
-    "pages/testMember/testMember"
+    "pages/testMember/testMember",
+    "pages/testMap/testMap"
   ],
   "window":{
     "backgroundTextStyle":"light",

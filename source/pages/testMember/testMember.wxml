@@ -1,2 +1,18 @@
-<!--pages/testMember/testMember.wxml-->
-<text>pages/testMember/testMember.wxml</text>
+<view class='testMember-page'>
+  <view class="testMember-tab1">
+    <icon class="iconfont icon-paobu test-title-settle1"></icon>
+    <icon class="iconfont icon-paobu test-title-settle2"></icon>
+  </view>
+  <view class="testMember-tab testMember-tab2">
+  
+  </view>
+  <view class='testMember-tab testMember-tab3' >
+     
+  </view>
+  <view class='testMember-tab testMember-tab4'>
+  
+  </view>
+  <view class='testMember-tab testMember-tab5'>
+  
+  </view>
+</view>

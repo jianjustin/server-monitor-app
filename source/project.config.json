@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -47,7 +47,19 @@
 				{
 					"id": -1,
 					"name": "测试轮播效果",
-					"pathName": "pages/testIndex/testIndex"
+					"pathName": "pages/testIndex/testIndex",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "测试轮播效果",
+					"pathName": "pages/testMember/testMember",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "地图测试",
+					"pathName": "pages/testMap/testMap"
 				}
 			]
 		}

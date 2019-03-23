@@ -1,0 +1,19 @@
+/* pages/testMap/testMap.wxss */
+
+page ,.testMap-page , #myMap{
+  height: 100%;
+  width: 100%;
+}
+
+.my-cover-view{
+  position: absolute;
+  bottom: 50rpx;
+  right: 70rpx;
+}
+
+.my-cover-view button{
+  width: 180rpx;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+

@@ -15,7 +15,7 @@
     <view>
     <icon class='testIndex-swiper-item-child testIndex-swiper-item-tab7 iconfont {{itemName.iconName}}'>{{itemName.chineseName}}</icon>
     </view>
-     <button class="testIndex-swiper-item-child testIndex-swiper-item-tab9" data-id="{{itemName.id}}">{{itemName.name}}</button>
+     <button data-path="{{itemName.path}}" bindtap="testClick" class="testIndex-swiper-item-child testIndex-swiper-item-tab9" data-id="{{itemName.id}}">{{itemName.name}}</button>
      </view>
   </view>
 </view>

@@ -16,7 +16,8 @@ Page({
         swigerText1:"累计跑步(公里)",
         swigerText2: "0.0",
         swigerText3: "大卡-- 配速--",
-        swigerText4: "目标500步"
+        swigerText4: "目标500步",
+        path: "/pages/testMap/testMap"
       },{
         id: 2,
         name: "walking",
@@ -26,7 +27,8 @@ Page({
         swigerText1: "今日步数",
         swigerText2: "2694",
         swigerText3: "大卡-- 配速--",
-        swigerText4: "目标1.0公里"
+        swigerText4: "目标1.0公里",
+        path: "/pages/testMap/testMap"
       },{
         id: 3,
         name: "bycling",
@@ -36,7 +38,8 @@ Page({
         swigerText1: "累计骑行(公里)",
         swigerText2: "0.0",
         swigerText3: "大卡-- 配速--",
-        swigerText4: "目标1.0公里"
+        swigerText4: "目标1.0公里",
+        path: "/pages/testMap/testMap"
       },{
         id: 0,
         name: "fitness",
@@ -46,7 +49,8 @@ Page({
         swigerText1: "累计健身(分钟)",
         swigerText2: "0",
         swigerText3: "大卡--",
-        swigerText4: "目标5分钟"
+        swigerText4: "目标5分钟",
+        path: "/pages/testMap/testMap"
       }
     ]
   },
@@ -81,5 +85,10 @@ Page({
     for (var i = 0; i < this.data.swigerData.length; i++){
       this.data.swigerData[i].status = "false";
     }
+  },
+  testClick: function(event){
+    wx.navigateTo({
+      url: event.target.dataset.path
+    })
   }
 })
